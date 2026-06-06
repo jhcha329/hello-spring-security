@@ -29,7 +29,11 @@
       "Bash(del \"C:\\\\Users\\\\Hansung\\\\IdeaProjects\\\\hello-spring-security\\\\src\\\\test\\\\java\\\\kr\\\\ac\\\\hansung\\\\service\\\\ProductServiceTest.java\")",
       "Bash(python -c ' *)",
       "Bash(python *)",
-      "Bash(mvn spring-boot:run)"
+      "Bash(mvn spring-boot:run)",
+      "Bash(extract-text \"/Users/chajaehyeok/Documents/HansungU/✏️ 4-1/웹프레임워크2[B]/과제/과제2-SpringBoot.docx\")",
+      "Bash(pandoc \"/Users/chajaehyeok/Documents/HansungU/✏️ 4-1/웹프레임워크2[B]/과제/과제2-SpringBoot.docx\" -t markdown)",
+      "Bash(cd \"/Users/chajaehyeok/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/0420036e-2f62-4687-9f0d-e3863b1961da/ee89250b-cba2-46b2-b274-1f201ed83777/skills/docx\" && python scripts/office/unpack.py \"/Users/chajaehyeok/Documents/HansungU/✏️ 4-1/웹프레임워크2[B]/과제/과제2-SpringBoot.docx\" /tmp/assignment_unpacked/ 2>&1)",
+      "Bash(python3 -c ' *)"
     ]
   }
 }
