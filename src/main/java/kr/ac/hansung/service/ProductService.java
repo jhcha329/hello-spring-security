@@ -48,6 +48,16 @@ public class ProductService {
     }
 
     @Transactional
+    public Product updateProduct(Long id, ProductDto dto) {
+        Product product = findById(id);
+        product.setName(dto.getName());
+        product.setPrice(dto.getPrice());
+        product.setStock(dto.getStock());
+        product.setDescription(dto.getDescription());
+        return product;
+    }
+
+    @Transactional
     public void deleteById(Long id) {
         productRepository.deleteById(id);
     }
