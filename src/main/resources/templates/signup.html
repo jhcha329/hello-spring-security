@@ -13,7 +13,7 @@
         .form-control:focus { border-color: #e94560; box-shadow: 0 0 0 0.2rem rgba(233,69,96,.25); }
     </style>
 </head>
-<body class="d-flex align-items-center justify-content-center">
+<body class="d-flex flex-column align-items-center justify-content-center">
 <div class="container py-5">
     <div class="row justify-content-center">
         <div class="col-sm-8 col-md-6 col-lg-4">
@@ -52,5 +52,10 @@
         </div>
     </div>
 </div>
+<footer class="py-3 text-center w-100">
+    <p class="mb-0 text-white-50 small">
+        학번: 2071027 &nbsp;│&nbsp; 성명: 차재혁 &nbsp;│&nbsp; 실습 수행: <span th:text="${#temporals.format(#temporals.createNow(), 'yyyy-MM-dd HH:mm:ss')}"></span>
+    </p>
+</footer>
 </body>
 </html>
